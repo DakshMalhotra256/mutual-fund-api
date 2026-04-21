@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 from urllib.parse import quote_plus
 
-password = quote_plus("Daksh@256")
+password = quote_plus("YOUR_PASSWORD_HERE")
 DATABASE_URL = f"mysql+pymysql://root:{password}@localhost:3306/mutual_fund_db"
 
 engine = create_engine(DATABASE_URL)
