@@ -67,6 +67,7 @@ The score starts at 100, with penalties and bonuses applied:
 The final score is clamped between 0 and 100. A portfolio of 3 Large Cap funds typically scores in the 40s, while a mix of 1 Large + 1 Mid + 1 Small Cap scores in the 80s.
 
 ## Project Structure
+```
 mutual-fund-api/
 ├── app/
 │   ├── main.py              # FastAPI app entry point
@@ -84,7 +85,7 @@ mutual-fund-api/
 │   └── seed.py              # CSV → MySQL loader
 ├── requirements.txt
 └── README.md
-
+```
 ## Local Setup
 
 ```bash
@@ -112,5 +113,5 @@ Open `http://127.0.0.1:8080/docs` for the interactive API documentation.
 
 ## Author
 
-**Daksh Malhotra** — B.Tech Engineering Physics, Delhi Technological University ('27)
+**Daksh Malhotra** — B.Tech Engineering Physics, Delhi Technological University ('27)  
 [GitHub](https://github.com/DakshMalhotra256) · [LinkedIn](https://www.linkedin.com/in/daksh-malhotra-176a94274/) · [LeetCode](https://leetcode.com/u/Daksh_Malhotra/)
