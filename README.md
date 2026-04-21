@@ -85,7 +85,7 @@ mutual-fund-api/
 │   └── seed.py              # CSV → MySQL loader
 ├── requirements.txt
 └── README.md
-
+```
 ## Local Setup
 
 ```bash
@@ -113,5 +113,5 @@ Open `http://127.0.0.1:8080/docs` for the interactive API documentation.
 
 ## Author
 
-**Daksh Malhotra** — B.Tech Engineering Physics, Delhi Technological University ('27)
+**Daksh Malhotra** — B.Tech Engineering Physics, Delhi Technological University ('27)  
 [GitHub](https://github.com/DakshMalhotra256) · [LinkedIn](https://www.linkedin.com/in/daksh-malhotra-176a94274/) · [LeetCode](https://leetcode.com/u/Daksh_Malhotra/)
